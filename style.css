@@ -1,0 +1,134 @@
+body, html {
+height: 100%;
+    display: block;
+    margin: 8px;
+}
+.banner-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("virus-background.jpg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.banner-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color:white;
+}
+body {
+font-family: Arial;
+font-size:15px;
+line-height: 1.6;
+letter-spacing: 1px;
+padding: 20px;
+display: block;
+margin: 8px;
+
+}
+h1 , h2 {
+	color:olive;
+	font-family:times;
+	font-size:22px;
+	font-weight:400;
+}
+h3 {
+	color:teal;
+	font-family:times;
+	font-size:18px;
+}
+	
+.img-circle {
+
+  width: 300px;
+  border-radius: 50%;
+  
+  }
+#header { 
+           
+	       height:100px;
+}
+.container {
+  width: 700px; 
+  margin: 40px auto;
+}
+.page-content {
+  margin-left: 200px;
+  width: 300px;
+  padding: 15px;
+}
+p {
+    font-family: italic,sans serif;
+	color:black;
+	text-align:justify;
+	padding:12px;
+	margin:16px 2px 3px 1px;
+	width:500px;
+}
+
+#logo {
+	float:left;
+	width:150px;
+	height:70px;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color:white;
+	padding:15px  20px;
+	border-radius: 4px;
+	float:left;
+}
+.btn-blue:hover{
+	background-color:olive;
+	color:white;
+}
+.fakeimage {
+	        height=200px;
+			width=100% ;
+			padding=20px;
+}
+.card-white {
+	background-color:#f1f1f1;
+	padding:30px;
+	margin: 20px 0px;
+	text-align:center;
+	border: 1px solid lightgrey;
+}
+.list-inline {
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline > li {
+     display: inline; 
+     padding: 0px 20px; 
+}
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
